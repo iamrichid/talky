@@ -392,14 +392,6 @@ i {
   height: 63px;
 }
 
-/* body container */
-
-#root-body{
-  display: flex;
-  flex-direction: column;
-  padding: 0 12rem 0 12rem ;
-}
-
 #header-nav{
   padding: 16px;
   display: flex;
@@ -407,78 +399,45 @@ i {
   gap: 2rem;
 }
 
-/* hero section */
-#hero{
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+.hero{
   display: flex;
-  width: 100%;
-  flex: 2;
-  gap: 12rem;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  flex-direction: column;
+  text-align: center;
+   font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 
-#hero-image{
-  flex: 0.8;
-  width: 10%;
-}
 
-#hero-text{
-  flex: 0.6;
-  max-width: 80ch;
-}
-
-/* sections */
-
-#section{
+.image {
   display: flex;
-  flex-direction: row-reverse;
-  width: 100%;
-  flex: 2;
-  align-items: center;
-  background-color: rgba(230, 232, 240, .27);
-  padding-top: 1rem;
+  justify-content: center;
+  padding: 7rem;
 }
 
+.container {
 
-#section-image{
-  flex: 0.8;
-  width: 10%;
 }
 
-#section-text{
-  flex: 0.6;
-  max-width: 80ch;
+.hero h2 {
+  margin: 0;
+  font-size: 20vmin;
 }
 
-/* sections */
-
-#section1{
-
-  display: flex;
-  width: 100%;
-  flex: 2;
-  align-items: center;
-  gap: 3rem;
-  
-  padding: 10rem;
+.tanker1 {
+  margin: 0;
+  font-size: 5vmin;
 }
 
-
-#section1-image{
-  flex: 0.8;
-  max-width: 30%;
-}
-
-#section1-text{
-  flex: 0.6;
-  max-width: 80ch;
-}
-
-/* footer */
-#bottom {
-  border-top: 1px solid var(--grey-3);
-  color: var(--grey-1);
- justify-content: center;
-  display: flex;
+.tanker{
+  font-size: 10vmin;
+  color: #eeb004;
 }
