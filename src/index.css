@@ -405,39 +405,59 @@ video {
   max-width: 100%;
 }
 
-.hero{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-   font-family: "Ojuju", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
 
 
-
-.image {
+.hero-image {
   display: flex;
   justify-content: center;
   padding: 7rem;
 }
 
 .container {
-
+display: flex;
 }
 
-.hero h2 {
-  margin: 0;
-  font-size: 20vmin;
+.hero{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
 }
 
-.tanker1 {
-  margin: 0;
-  font-size: 5vmin;
+.hero-heading{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.tanker{
-  font-size: 10vmin;
-  color: #eeb004;
+.hero-cta{
+  display: flex;
+  flex-direction: column;
+  padding-right: 16rem;
+}
+
+.hero-cta-button{
+  padding: 1rem;
+  color: #fff;
+  background-color: #3984ff;
+}
+
+
+@media screen and (min-width: 1020px) {
+
+  .hero{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    max-width: 1024px;
+    justify-content: center;
+   
+  }
+
+  .container{
+    justify-content: center;
+  }
+
+
+
 }
